@@ -1,4 +1,4 @@
-## Sed basic commands
+# Sed basic commands
 
 SED command in UNIX stands for stream editor and it can perform lots of functions on file like searching, find and replace, insertion or deletion.
 
