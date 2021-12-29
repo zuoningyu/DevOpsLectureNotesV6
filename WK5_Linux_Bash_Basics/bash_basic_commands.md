@@ -1,4 +1,4 @@
-# Basic Bash commands
+# Bash Basic commands
 
 __1. ```man``` command__
  - to get the manual of commands that what specific command actually do and how to use it.
