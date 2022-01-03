@@ -3,9 +3,7 @@
 - AWS EventBridge (CloudWatch events)
 - S3 upload event
 - AWS API Gateway
-2. Write two scripts, one in bash and one in python, that each implement the following feature: change Amazon EC2 Instance Type with a given instance ID, and a new instance type. 
-
-Think about following before you start writing these scripts:
+2. Write two scripts, one in bash and one in python, that each implement the following feature: change Amazon EC2 Instance Type with a given instance ID, and a new instance type. Think about following before you start writing these scripts:
 - what should be the input and output of your script?
 - what is the workflow of your script?
 - what are the corner cases of your workflow? e.g. what if input instance ID does not exist
@@ -14,4 +12,4 @@ Think about following before you start writing these scripts:
 - You might want to manually build and test your lambda function first before you deploy it using CLI
 - Consider sending email using AWS SNS: https://docs.aws.amazon.com/sns/latest/dg/sns-email-notifications.html
 - How do you specify lambda run schedule in your AWS CLI command?
-3. (Optional) Build a three-tier architecture using a Serverless architecture: AWS API Gateway and Lambda https://docs.aws.amazon.com/whitepapers/latest/serverless-multi-tier-architectures-api-gateway-lambda/three-tier-architecture-overview.html
+4. (Optional) Build a three-tier architecture using a Serverless architecture: AWS API Gateway and Lambda https://docs.aws.amazon.com/whitepapers/latest/serverless-multi-tier-architectures-api-gateway-lambda/three-tier-architecture-overview.html
