@@ -1,3 +1,5 @@
+# Using an Amazon S3 trigger to invoke a Lambda function
+
 Create a bucket and upload a sample object
 ------------------------------------------
 
@@ -28,7 +30,6 @@ After creating the bucket, Amazon S3 opens the **Buckets** page, which displays 
 3.  Drag a test file from your local machine to the **Upload** page.
 
 4.  Choose **Upload**.
-
 
 
 Test in the console
