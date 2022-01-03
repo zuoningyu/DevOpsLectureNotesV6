@@ -39,7 +39,7 @@ b. Go to the bottom of the page and select **Create Function**.
 
 ![Enter Lambda Basic Information](https://d1.awsstatic.com/tmt/tmt_create-lambda-function/NewScreenshots2018/GIFFormat/P4.6e6d2a47ae4ebc0dec93376742bfc586444a0059.gif "Enter Lambda Basic Information")
 
-c.  **Runtime**: Currently, you can author your Lambda function code in Java, Node.js, C#, Go or Python. For this tutorial, leave this on *Python 2.7* as the runtime.
+c.  **Runtime**: Currently, you can author your Lambda function code in Java, Node.js, C#, Go or Python. For this tutorial, leave this on *Python 3.7* as the runtime.
 
 d.  **Handler**: You can specify a handler (a method/function in your code) where AWS Lambda can begin executing your code. AWS Lambda provides event data as input to this handler, which processes the event.
 
