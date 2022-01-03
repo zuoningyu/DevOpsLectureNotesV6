@@ -3,7 +3,9 @@
 - AWS EventBridge (CloudWatch events)
 - S3 upload event
 - AWS API Gateway
-2. Write two scripts, one in bash and one in python, that each implement the following feature: change Amazon EC2 Instance Type with a given instance ID, and a new instance type. Think about following before you start writing these scripts:
+2. Write two scripts, one in bash and one in python, that each implement the following feature: change Amazon EC2 Instance Type with a given instance ID, and a new instance type. 
+
+Think about following before you start writing these scripts:
 - what should be the input and output of your script?
 - what is the workflow of your script?
 - what are the corner cases of your workflow? e.g. what if input instance ID does not exist
