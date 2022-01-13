@@ -30,6 +30,8 @@ https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
 
 AWS looks for above environment variables in your shell to match your identity. Therefore, you need to do above steps (3 export commands) every time you opens a new terminal tab to authenticate with AWS. To make this easier, you can put these commands in your ~/.bashrc or ~/.zshrc config file.
 
+For more information on how AWS CLI authentication works, refer to https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
+
 # Common tools installation
 ## Git
 https://www.atlassian.com/git/tutorials/install-git
