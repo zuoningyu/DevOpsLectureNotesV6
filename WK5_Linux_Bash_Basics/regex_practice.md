@@ -1,6 +1,7 @@
 # Regex practice
 
-### Practice 1
+## Practice 1
+
 Revise the following regular expression operators:
 
 `()[]{}.*+?^$|\`
@@ -13,7 +14,9 @@ For each of the following, give a couple of examples of strings which the regula
 - `/\s(\w+)\s\1/`
 - `/^(\+[0-9][0-9]|0)[0-9] ([0-9][ -]?){8}$/`
 
-### Practice 2
+## Practice 2
+
 Write a regular expression to solve the following problems:
+
 - Match a price
 - Validate an email address

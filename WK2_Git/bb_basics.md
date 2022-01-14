@@ -1,12 +1,15 @@
 # Description
+
 This runbook shows you the basic about how to create a repo, add file and raise a PR via bitbucket
 
 # Pre-requisite
+
 * Bitbucket Account
 * (Optional) Jira Software Site
 
 # Create Repo Steps
-1. Once login to https://bitbucket.org/dashboard/overview, click __Create Repository__
+
+1. Once login to <https://bitbucket.org/dashboard/overview>, click __Create Repository__
 ![Alt text](images/bb_create_repo_1.png?raw=true)
 2. You will see the following page and please fill in the repo name __MyTestRepo__ and then click __Create repository__
 ![Alt text](images/bb_create_repo_2.png?raw=true)
@@ -17,6 +20,7 @@ This runbook shows you the basic about how to create a repo, add file and raise 
 4. Congrats! __MyTestRepo__ repo has been created
 
 # (Optional) Link Bitbucket to Jira
+
 1. Since you already have a bitbucket account, you don't need to register again for Jira. Simply pick a site name and signup
 ![Alt text](images/jira_create_site_1.png?raw=true)
 
@@ -45,6 +49,7 @@ This runbook shows you the basic about how to create a repo, add file and raise 
 ![Alt text](images/jira_sprint_board_1.png?raw=true)
 
 # Connect your bitbucket to your Jira
+
 1. Click __Settings__ -->  __Jira__ --> __Connect__
 ![Alt text](images/bb_settings_1.png?raw=true)
 

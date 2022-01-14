@@ -1,11 +1,14 @@
 # Description
+
 This runbook shows you the basic about how to create a repo, add file and raise a PR via github
 
-# Pre-requisite
+## Pre-requisite
+
 * Github Account
 
-# Create Repo Steps
-1. Once login to https://github.com/, click __New__
+## Create Repo Steps
+
+1. Once login to <https://github.com/>, click __New__
 
 2. You will see the following page and please fill in the repo name __MyTestRepo__ and __Initialize this repo with a Readme__ and then click __Create repository__
 ![Alt text](images/github_create_repo_1.png?raw=true)
@@ -15,7 +18,8 @@ This runbook shows you the basic about how to create a repo, add file and raise 
 
 4. Congrats! __MyTestRepo__ repo has been created
 
-# Add a file and raise a PR Steps
+## Add a file and raise a PR Steps
+
 1. Click __Create new file__ in __MyTestRepo__ repo
 ![Alt text](images/github_add_file_1.png?raw=true)
 

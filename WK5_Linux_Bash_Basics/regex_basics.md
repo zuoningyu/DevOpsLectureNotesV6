@@ -1,4 +1,5 @@
 # Regex Basics
+
 ========================
 
 Regular Expressions (regex or regexp) are a very useful tool to identify specific patterns in any text, which helps to extract information regardless the format of the text.
@@ -9,8 +10,7 @@ Regex is widely used in multiple programming languages using almost the same syn
 
 The following sections will show the different operators used for regex and some examples. You can also test your regular expressions with some explanations of them on [this page](https://regex101.com).
 
-Anchors
--------
+## Anchors
 
 | Characters | Use |
 | --- | --- |
@@ -27,8 +27,7 @@ Some examples are:
 | ^Hello world$ | Matches the exact string 'Hello world' | "**Hello world**" |
 | order | Matches any string that contains the text 'order' in it | "My **order** number is 54" |
 
-Quantifiers
------------
+## Quantifiers
 
 Quantifiers are used to represent the times we want the preeceding character or group of characters to appear in our match.
 
@@ -50,8 +49,7 @@ Some examples are:
 | hello!? | Matches any string 'hello' followed by zero or one '!' characters | "**hello**", "**hello!**" |
 | (ha){2,4} | Matches any string that repeats the group of characters 'ha' two up to four times | "**haha**", "**hahaha**", "**hahahaha**" |
 
-OR operator
------------
+## OR operator
 
 | Characters | Use |
 | --- | --- |
@@ -65,8 +63,7 @@ Some examples are:
 | se(a|e) | Matches any string that contains the text 'se' followed either by an 'a' or an 'e' | "**see**", "**sea**" |
 | a[bcd] | Matches any string that contains an 'a' followed either by 'b', 'c', or 'd' | "**ab**", "**ac**", "**ad**" |
 
-Character classes
------------------
+## Character classes
 
 The character classes operators allow you to match characters inside a category (class). These operators offer their negations, which are the same as the normal operator but in upper case.
 
@@ -80,8 +77,7 @@ The character classes operators allow you to match characters inside a category 
 | \S | Matches a single **non-white space** character, including tabs and line breaks |
 | . | Matches any single character |
 
-Flags
------
+## Flags
 
 Regex usually uses the form `/pattern/`. At the end, we can use the following flags:
 
