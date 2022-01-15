@@ -175,7 +175,7 @@ git push origin <feature_branch>
 
 ## Visualisation
 
-http://git-school.github.io/visualizing-git/
+<http://git-school.github.io/visualizing-git/>
 
 ## Manage multiple git accounts on your local machine
 
