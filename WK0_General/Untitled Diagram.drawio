@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T04:36:20.714Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="XhD9V1FcWpIWy0ZvWIIU" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-17T04:38:26.651Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="nEUBvodMBAdwTybgon6N" version="16.2.7" type="github">
   <diagram id="nTavoCozBwpmdaPDeNK8" name="Page-1">
     <mxGraphModel dx="1269" dy="1185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="-BVClp20yBoAwnYQ5BR0-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZmlAG-eg9Pxj-TcLlm6Z-8" target="ZmlAG-eg9Pxj-TcLlm6Z-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZmlAG-eg9Pxj-TcLlm6Z-8" value="Amazon&lt;br&gt;Lambda" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
+        <mxCell id="ZmlAG-eg9Pxj-TcLlm6Z-8" value="Amazon&lt;br&gt;Lambda&lt;br&gt;&lt;br&gt;1. registration&lt;br&gt;2. vote&lt;br&gt;3. calculate result&lt;br&gt;&lt;br&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="650" y="190" width="76.5" height="93" as="geometry" />
         </mxCell>
         <mxCell id="-BVClp20yBoAwnYQ5BR0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZmlAG-eg9Pxj-TcLlm6Z-9" target="ZmlAG-eg9Pxj-TcLlm6Z-8">
