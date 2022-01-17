@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T04:26:23.227Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="e-Fd4cCk0Jceb5GFWiNz" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-17T04:36:20.714Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="XhD9V1FcWpIWy0ZvWIIU" version="16.2.7" type="github">
   <diagram id="nTavoCozBwpmdaPDeNK8" name="Page-1">
     <mxGraphModel dx="1269" dy="1185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -14,22 +14,34 @@
           <mxGeometry x="360" y="550" width="76.5" height="93" as="geometry" />
         </mxCell>
         <mxCell id="ZmlAG-eg9Pxj-TcLlm6Z-5" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" parent="1" vertex="1">
-          <mxGeometry x="544.5" y="560" width="80" height="96.13" as="geometry" />
+          <mxGeometry x="570" y="570" width="80" height="96.13" as="geometry" />
+        </mxCell>
+        <mxCell id="-BVClp20yBoAwnYQ5BR0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.65;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZmlAG-eg9Pxj-TcLlm6Z-7" target="ZmlAG-eg9Pxj-TcLlm6Z-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZmlAG-eg9Pxj-TcLlm6Z-7" value="Amazon&lt;br&gt;API Gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="310" y="190" width="76.5" height="93" as="geometry" />
         </mxCell>
+        <mxCell id="-BVClp20yBoAwnYQ5BR0-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZmlAG-eg9Pxj-TcLlm6Z-8" target="ZmlAG-eg9Pxj-TcLlm6Z-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZmlAG-eg9Pxj-TcLlm6Z-8" value="Amazon&lt;br&gt;Lambda" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="650" y="190" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="-BVClp20yBoAwnYQ5BR0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZmlAG-eg9Pxj-TcLlm6Z-9" target="ZmlAG-eg9Pxj-TcLlm6Z-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZmlAG-eg9Pxj-TcLlm6Z-9" value="Message&lt;br&gt;Queue" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.queue;fillColor=#D9A741;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="480" y="212.5" width="73.5" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="ZmlAG-eg9Pxj-TcLlm6Z-10" value="Master Database&lt;br&gt;MySQL&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" parent="1" vertex="1">
-          <mxGeometry x="1000" y="204" width="80" height="80" as="geometry" />
+        <mxCell id="-BVClp20yBoAwnYQ5BR0-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZmlAG-eg9Pxj-TcLlm6Z-10" target="ZmlAG-eg9Pxj-TcLlm6Z-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZmlAG-eg9Pxj-TcLlm6Z-11" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Cache_Redis.svg;" parent="1" vertex="1">
-          <mxGeometry x="850" y="268" width="64" height="52" as="geometry" />
+        <mxCell id="ZmlAG-eg9Pxj-TcLlm6Z-10" value="Master Database&lt;br&gt;MySQL&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" parent="1" vertex="1">
+          <mxGeometry x="1000" y="196.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmlAG-eg9Pxj-TcLlm6Z-11" value="Redis&lt;br&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Cache_Redis.svg;" parent="1" vertex="1">
+          <mxGeometry x="820" y="260.5" width="59.21" height="48.13" as="geometry" />
         </mxCell>
         <mxCell id="-BVClp20yBoAwnYQ5BR0-3" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;startWidth=14;startSize=5.06;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;width=6;endSize=10;" edge="1" parent="1" source="ZmlAG-eg9Pxj-TcLlm6Z-2" target="ZmlAG-eg9Pxj-TcLlm6Z-1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -42,10 +54,44 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-BVClp20yBoAwnYQ5BR0-5" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.589;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;endWidth=1;endSize=11.77;" edge="1" parent="1" source="ZmlAG-eg9Pxj-TcLlm6Z-3" target="ZmlAG-eg9Pxj-TcLlm6Z-1">
+        <mxCell id="-BVClp20yBoAwnYQ5BR0-5" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.589;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;endWidth=12;endSize=8.67;startWidth=12;startSize=5.53;width=8;" edge="1" parent="1" source="ZmlAG-eg9Pxj-TcLlm6Z-3" target="ZmlAG-eg9Pxj-TcLlm6Z-1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="530" y="650" as="sourcePoint" />
             <mxPoint x="630" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BVClp20yBoAwnYQ5BR0-6" value="CDN&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-BVClp20yBoAwnYQ5BR0-5">
+          <mxGeometry x="0.0688" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BVClp20yBoAwnYQ5BR0-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ZmlAG-eg9Pxj-TcLlm6Z-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="470" as="sourcePoint" />
+            <mxPoint x="430" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BVClp20yBoAwnYQ5BR0-9" value="cache&lt;br&gt;frontend&lt;br&gt;static content" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-BVClp20yBoAwnYQ5BR0-7">
+          <mxGeometry x="-0.0479" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BVClp20yBoAwnYQ5BR0-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ZmlAG-eg9Pxj-TcLlm6Z-5" target="ZmlAG-eg9Pxj-TcLlm6Z-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="630" as="sourcePoint" />
+            <mxPoint x="610" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BVClp20yBoAwnYQ5BR0-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ZmlAG-eg9Pxj-TcLlm6Z-11" target="ZmlAG-eg9Pxj-TcLlm6Z-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="630" as="sourcePoint" />
+            <mxPoint x="610" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BVClp20yBoAwnYQ5BR0-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZmlAG-eg9Pxj-TcLlm6Z-1" target="ZmlAG-eg9Pxj-TcLlm6Z-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="630" as="sourcePoint" />
+            <mxPoint x="610" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
