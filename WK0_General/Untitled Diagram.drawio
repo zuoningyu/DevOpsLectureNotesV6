@@ -1,1 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T04:20:35.266Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="B76PTn6_kctwe7VMp_IR" version="16.2.7" type="github"><diagram id="nTavoCozBwpmdaPDeNK8" name="Page-1">7VrbcuI4EP0aHuPyBRvzyCXJTlVSlZls1VxeKGELoxkZeWURYL5+W7Z8lWG8uxCo2iGVRN1uS906fdSyzMCZxftHjpL1MwsxHdhmuB8484FtW7Y3hn9Sc1Aay3dzTcRJqHSV4pX8xEppKu2WhDhtGArGqCBJUxmwzQYHoqFDnLNd02zFaHPUBEVYU7wGiOrazyQU6yKMIjB54Q9MorUa2rdH+YUYFcYqknSNQrarqZz7gTPjjIm8Fe9nmMrZK+Ylv+/hyNXSMY43os8N32I6ebzD0fhl//3uz+CJxt63O9XLG6JbFfBnvBzYHoUup0sOrUi2VATiUExL+gOLQMZnwlWUJvnUr8gew2jThJGNwPz+DVyT82+Brgxf3hGidC0tM2EtYloYCc5+4BmjjINmwzYw3JSiJaYvLCWCsA2oAyw7hwtvmAsCUD21DJZMCBbXDCaURPKCYIl0V0llPytCaTHmwHZM0/L9ee5yIuON95HMbiNOA4SN7K6EkxQbASUgLVCSUBgmGz2fThgX74/iZJXoA28wi7HgBzApbvBVwijKOEMl76r8G/mG5eTadS35XGWJVNJHZedVXkBDpcY/SBNbS5NJjH7KcNuZ8oltBQZT19FyBq5QsgF0C6ZqmXAuQOsZ1cIQ7VLH4NLJBbioYf/g+q7jgR6sQwluKxfPgK87NsaNTwNt13IMx9cBNw1Xx9t3C+3ZEbdcDT8cwsqoRMbFmkVsg+h9pZ3CvG7CEs3K5olJnDI8vmMhDmqZR1vBmmjhPRFfau2vsiuIMZfme9VzJhxqwgvmBOKW4Ge63Hfp8GmQID625QE+MREqjwXiERYn7Nxu0DmmsDC8Nf04O1pOb37OqMTogTOYh18v87dD2QD8DleZ29cgrW02F+VjNPW6aDp2LrUs64vsO5D0jORye5JrdE1yuUfJZb7qADR2Rp38WbEqQyF74edBenMse5t7IrhhlX10GpQd9SJoTMIwy4c2QUvmnuLobk0Efk1Qhu4OaKriUkljFXEWqZjxGszJJgLJ6Wb50Eg4C7eB+BBIF6cJzxtNm9Q5D6UdryRrSWrL8C2N1MV+rEFpr9yAnb/0+tcsvabhFfX231ZfAIAfvtSFWk9SrLrKpENdumApH/VcbcbXXG1GvUv55OUDGD4igXfocMOlGyVkESkvtUVrPp6MhtZFa7djNWu3Ne54oHrnwm1qeP0/d9d+T0paZjfE78NJvzcnn1C8DNENk5HmDnbvoYcX5aHn3hwPrfFvHlYlrwcP/WvScKzR8BmnqTzA1Xj4cYvB5nZp+Ffm3zWq4bB1vGhbdkG5Og+dLh4O/UvVQ0vD6j23vA0ejk4T8YykK/Ylv65+RyB9H9oVbtZ5h1KZ57Y5RwItUdrBwOfD68enHkdMJM7ewNRxUao5iSNwmJIl/A0oSRaIC9lkcbKF4VNoF+MvLNvfw6+RwAPmGc7gzdZ5j20ONY50PRf6FzuBt6/CkOJJrhQUR8ZXfpSzineBN12wCi9rzNFQ1F6e1aY/e4+WOeVOB+68q9AU9KkfvthHOIR+bjmWIYWKNZJBMxSs8eITDklqpG/ReYqM39rq2Z5+VuoNdfq49qWQ0E/IdT5twol8Yyynl6I0JUETjSabzpnMPXPZ7p7z2py6HUtSoeud8mqEF5l8FaSu1z4Bby11eZjqrgourSOv9Tg+9Fod5fOgdZThXob9H1JheMOpYPdMBed3KpxMBRCrb1bk5tUXVJz7vwE=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-17T04:26:23.227Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="e-Fd4cCk0Jceb5GFWiNz" version="16.2.7" type="github">
+  <diagram id="nTavoCozBwpmdaPDeNK8" name="Page-1">
+    <mxGraphModel dx="1269" dy="1185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZmlAG-eg9Pxj-TcLlm6Z-1" value="Web&lt;br&gt;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.client_application" parent="1" vertex="1">
+          <mxGeometry x="180" y="340" width="78.13" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmlAG-eg9Pxj-TcLlm6Z-2" value="Amazon&lt;br&gt;Route 53" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.route_53;fillColor=#F58536;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="183.81" y="560" width="70.5" height="85.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmlAG-eg9Pxj-TcLlm6Z-3" value="Amazon&lt;br&gt;CloundFront&lt;br&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudfront;fillColor=#F58536;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="360" y="550" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmlAG-eg9Pxj-TcLlm6Z-5" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" parent="1" vertex="1">
+          <mxGeometry x="544.5" y="560" width="80" height="96.13" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmlAG-eg9Pxj-TcLlm6Z-7" value="Amazon&lt;br&gt;API Gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="310" y="190" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmlAG-eg9Pxj-TcLlm6Z-8" value="Amazon&lt;br&gt;Lambda" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="650" y="190" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmlAG-eg9Pxj-TcLlm6Z-9" value="Message&lt;br&gt;Queue" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.queue;fillColor=#D9A741;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="480" y="212.5" width="73.5" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmlAG-eg9Pxj-TcLlm6Z-10" value="Master Database&lt;br&gt;MySQL&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" parent="1" vertex="1">
+          <mxGeometry x="1000" y="204" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmlAG-eg9Pxj-TcLlm6Z-11" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Cache_Redis.svg;" parent="1" vertex="1">
+          <mxGeometry x="850" y="268" width="64" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="-BVClp20yBoAwnYQ5BR0-3" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;startWidth=14;startSize=5.06;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;width=6;endSize=10;" edge="1" parent="1" source="ZmlAG-eg9Pxj-TcLlm6Z-2" target="ZmlAG-eg9Pxj-TcLlm6Z-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="158.13" y="500" as="sourcePoint" />
+            <mxPoint x="258.13" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BVClp20yBoAwnYQ5BR0-4" value="DNS lookup&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-BVClp20yBoAwnYQ5BR0-3">
+          <mxGeometry x="0.1765" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BVClp20yBoAwnYQ5BR0-5" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.589;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;endWidth=1;endSize=11.77;" edge="1" parent="1" source="ZmlAG-eg9Pxj-TcLlm6Z-3" target="ZmlAG-eg9Pxj-TcLlm6Z-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="530" y="650" as="sourcePoint" />
+            <mxPoint x="630" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
