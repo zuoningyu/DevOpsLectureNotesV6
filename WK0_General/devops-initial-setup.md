@@ -20,7 +20,7 @@ https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
   - Login to your AWS Console using your root credentials
   - Follow [this](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html#id_users_create_console) and create an IAM user for yourself. Give yourself **AdministratorAccess**
   - Don't forget to save the Access Key ID and Secret Access Key after you create the IAM user.
-2. Configure your credentials in your command line tool (On Mac it's Terminal) using “aws --configure”
+2. Configure your credentials in your command line tool (On Mac it's Terminal) using “aws configure”
   - You can check your ~/.aws/credentials and ~/.aws/config files and make sure they are correctly setup
 3. Authenticate to your IAM user on your command line. Below are commands to type on your terminal:
   - `export AWS_REGION=ap-southeast-2` (or other regions you want to authenticate into)
