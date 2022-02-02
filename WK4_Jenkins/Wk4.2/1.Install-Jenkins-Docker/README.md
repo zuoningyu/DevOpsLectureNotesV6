@@ -1,10 +1,10 @@
 # Description
 
-This is to guide how to install Jenkins locally.
+This is to guide how to install Jenkins and run it in a Docker container.
 
 ## Pre-requisite
 
-Docker
+* Software: Docker
 
 ## Steps
 
@@ -28,15 +28,16 @@ docker run --name jenkins \
            jenkinsci/blueocean
 ```
 
-Note:
-
-- `-u root` configures to run Jenkins by root user.
-- `-d` detaches the container
-- `-v $(pwd):/var/jenkins_home` mounts the current directory to Jenkins home inside the container
-- `-v /var/run/docker.sock:/var/run/docker.sock` mounts Docker socks
-- `-p 80:8080` maps port 80 in the host to port 8080 inside the container
-- `-p 50000:50000` maps ports 50000 which is the default port for angent registration
-- `jenkinsci/blueocean` is the image maintained by `jenkinsci`.
+> Note:
+>
+> * `-u root` configures to run Jenkins by root user.
+> * `-d` detaches the container
+> * `-v $(pwd):/var/jenkins_home` mounts the current directory to Jenkins home inside the container
+> * `-v /var/run/docker.sock:/var/run/docker.sock` mounts Docker socks
+> * `-p 80:8080` maps port 80 in the host to port 8080 inside the container
+> * `-p 50000:50000` maps ports 50000 which is the default port for angent registration
+> * `jenkinsci/blueocean` is the image maintained by `jenkinsci`.
+> * If you have error with port 80, please change it to 8080 or other port numbers.
 
 ### 3. Open <http://127.0.0.1> and you should see screen below
 

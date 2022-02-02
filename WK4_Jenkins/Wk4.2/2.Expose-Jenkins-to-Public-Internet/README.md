@@ -15,6 +15,26 @@ This is to demo how to expose a server inside the firewall to public internet vi
 
 ### Step 2: Follow docs to install ngrok client and setup authtoken
 
+To download in Ubuntu, you can use following commnad:
+
+```bash
+curl -O <url>
+```
+
+Then grant execute permission to the downloaded file:
+
+```bash
+chmod +x ngrok-stable-linux-amd64.tgz
+```
+
+Next, let's unzip it (Ubuntu):
+
+```bash
+tar zxvf ngrok-stable-linux-amd64.tgz
+```
+
+Now we need to authenticate:
+
 ```bash
 ngrok authtoken {YOUR_TOKEN}
 ```
@@ -26,6 +46,9 @@ ngrok authtoken {YOUR_TOKEN}
 ```bash
 ngrok http 80
 ```
+
+> NOTE:
+> You should specify the actual port used for your Docker container.
 
 ![Alt text](images/expose-jenkins-to-public-internet-03.png?raw=true)
 
