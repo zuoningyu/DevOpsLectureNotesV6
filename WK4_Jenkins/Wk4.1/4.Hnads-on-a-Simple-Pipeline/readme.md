@@ -122,114 +122,114 @@ The expected result for your pipeline(s) is/are:
 If you build...
 
 ### **poi**
-    
-    Build
 
-    ```cmd
-    Build succeeded.
-    0 Warning(s)
-    0 Error(s)
-    ```
+Build
 
-    UnitTest
+```cmd
+Build succeeded.
+0 Warning(s)
+0 Error(s)
+```
 
-    ```cmd
-    Passed!  - Failed:     0, Passed:    17, Skipped:     0, Total:    17, Duration: 1 s - /var/lib/jenkins/workspace/api-poi/apis/poi/tests/UnitTests/bin/Release/netcoreapp3.1/UnitTests.dll (netcoreapp3.1)
-    ```
+UnitTest
 
-    IntegrationTest
+```cmd
+Passed!  - Failed:     0, Passed:    17, Skipped:     0, Total:    17, Duration: 1 s - /var/lib/jenkins/workspace/api-poi/apis/poi/tests/UnitTests/bin/Release/netcoreapp3.1/UnitTests.dll (netcoreapp3.1)
+```
 
-    ```cmd
-    Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: < 1 ms - /var/lib/jenkins/workspace/api-poi/apis/poi/tests/IntegrationTests/bin/Release/netcoreapp3.1/IntegrationTests.dll (netcoreapp3.1)
-    ```
+IntegrationTest
 
-    > NOTE
-    >
-    > * Integration test is failed as expected as we don't have backend database and other components running.
-    > * Therefore, please don't include the IntegrationTest in your pipeline.
+```cmd
+Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: < 1 ms - /var/lib/jenkins/workspace/api-poi/apis/poi/tests/IntegrationTests/bin/Release/netcoreapp3.1/IntegrationTests.dll (netcoreapp3.1)
+```
+
+> NOTE
+>
+> * Integration test is failed as expected as we don't have backend database and other components running.
+> * Therefore, please don't include the IntegrationTest in your pipeline.
 
 ### **user-java**
-    
-    Test
 
-    ```cmd
-    Results :
-    
-    Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
-    ```
+Test
 
-    Build
+```cmd
+Results :
 
-    ```cmd
-    [INFO] --------------
-    [INFO] BUILD SUCCESS
-    [INFO] --------------
-    ```
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+```
+
+Build
+
+```cmd
+[INFO] --------------
+[INFO] BUILD SUCCESS
+[INFO] --------------
+```
 
 ### **trips**
 
-    Build
+Build
 
-    ```sh
-    NO OUTPUT
-    ```
+```sh
+NO OUTPUT
+```
 
-    UnitTest
+UnitTest
 
-    ```sh
-    ok  	github.com/Azure-Samples/openhack-devops-team/apis/trips/tripsgo	0.014s
-    ```
+```sh
+ok    github.com/Azure-Samples/openhack-devops-team/apis/trips/tripsgo    0.014s
+```
 
-    IntegrationTest
+IntegrationTest
 
-    ```sh
-    FAIL	github.com/Azure-Samples/openhack-devops-team/apis/trips/tripsgo	0.018s
-    ```
+```sh
+FAIL    github.com/Azure-Samples/openhack-devops-team/apis/trips/tripsgo    0.018s
+```
 
-    > NOTE
-    >
-    > * Integration test is failed as expected as we don't have backend database and other components running.
-    > * Therefore, please don't include the IntegrationTest in your pipeline.
+> NOTE
+>
+> * Integration test is failed as expected as we don't have backend database and other components running.
+> * Therefore, please don't include the IntegrationTest in your pipeline.
 
 ### **userprofile**
 
-    npm install
+npm install
 
-    ```sh
-    up to date, audited 448 packages in 20s
-    ```
+```sh
+up to date, audited 448 packages in 20s
+```
 
-    Tests
+Tests
 
-    ```sh
-    > mydriving-user-api@1.0.0 test
-    > tape 'tests/**/*.js' | tap-junit --output reports --name userprofile-report
+```sh
+> mydriving-user-api@1.0.0 test
+> tape 'tests/**/*.js' | tap-junit --output reports --name userprofile-report
 
-    Tap-Junit: Finished! userprofile-report.xml created at -- reports
-    ```
+Tap-Junit: Finished! userprofile-report.xml created at -- reports
+```
 
-    npm coverage
+npm coverage
 
-    ```sh
-    > mydriving-user-api@1.0.0 cover
-    > nyc tape -- 'tests/**/*.js' --cov
+```sh
+> mydriving-user-api@1.0.0 cover
+> nyc tape -- 'tests/**/*.js' --cov
 
-    TAP version 13
-    # /healthcheck/user
-    ok 1 No parse error
-    ok 2 Valid swagger api
-    # test get operation
-    ok 3 null
-    ok 4 should be truthy
-    ok 5 should be truthy
-    ok 6 No error
-    ok 7 Ok response status
-    ok 8 Valid response
-    ok 9 No validation errors
+TAP version 13
+# /healthcheck/user
+ok 1 No parse error
+ok 2 Valid swagger api
+# test get operation
+ok 3 null
+ok 4 should be truthy
+ok 5 should be truthy
+ok 6 No error
+ok 7 Ok response status
+ok 8 Valid response
+ok 9 No validation errors
 
-    1..9
-    # tests 9
-    # pass  9
+1..9
+# tests 9
+# pass  9
 
-    # ok
-    ```
+# ok
+```
