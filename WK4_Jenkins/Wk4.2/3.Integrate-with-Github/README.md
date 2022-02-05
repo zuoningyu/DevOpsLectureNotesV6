@@ -47,7 +47,7 @@ This webhook will notify Jenkins when there is a push, PR or repository created.
 
 ### Step 4: Now perform the below steps to setup webhooks in GitHub
 
-- Put the Payload URL in the textbox. Kindly note that doesn’t forget to append text github-webhook/ at the last.
+- Put the Payload URL in the textbox. Kindly note that doesn’t forget to append text `/github-webhook/` at the last.
 - Click on the “Just the push event” option.
 - Please make sure that you check the “Active” checkbox.
 - Click on the “Add webhook”  button.
@@ -72,3 +72,7 @@ This webhook will notify Jenkins when there is a push, PR or repository created.
 ### Step 9: In Jenkins, you should see a new build is triggerred
 
 ![Alt text](images/21-Build-automatically-triggered.png?raw=true)
+
+### Step 10: Use Jenkins Pipeline rather than Freestyle so you can execute the Jenkinsfile
+
+> Note: any branch is */*.

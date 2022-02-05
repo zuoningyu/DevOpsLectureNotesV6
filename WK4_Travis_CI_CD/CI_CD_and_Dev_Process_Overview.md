@@ -76,7 +76,7 @@ Test Driven is important for quality of the code. We recommend developers write 
 Because the amount of work of a ticket is very small with clear definition of done, the developer can finish writing the
 working version within a few hours.
 
-### 3. Add Monitoring
+### 4. Add Monitoring
 It is always a good move to add monitoring around your feature, so that you gain visibility when the code is in
 production.
 
