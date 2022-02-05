@@ -115,6 +115,8 @@ pipeline {
 }
 ```
 
+## Expected Result
+
 The expected result for your pipeline(s) is/are:
 
 If you build...
