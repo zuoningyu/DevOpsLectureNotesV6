@@ -121,7 +121,7 @@ The expected result for your pipeline(s) is/are:
 
 If you build...
 
-* **poi**
+### **poi**
     
     Build
 
@@ -148,7 +148,7 @@ If you build...
     > * Integration test is failed as expected as we don't have backend database and other components running.
     > * Therefore, please don't include the IntegrationTest in your pipeline.
 
-* **user-java**
+### **user-java**
     
     Test
 
@@ -166,7 +166,7 @@ If you build...
     [INFO] --------------
     ```
 
-* **trips**
+### **trips**
 
     Build
 
@@ -191,7 +191,7 @@ If you build...
     > * Integration test is failed as expected as we don't have backend database and other components running.
     > * Therefore, please don't include the IntegrationTest in your pipeline.
 
-* **userprofile**
+### **userprofile**
 
     npm install
 
