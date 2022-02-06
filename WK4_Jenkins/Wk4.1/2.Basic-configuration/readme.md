@@ -27,6 +27,8 @@ In the Home directory, you will now see the new directory which has been configu
 
 ![Alt text](images/jenkins_config_home.png?raw=true)
 
+To change your Jenkins home directory, please follow this doc: https://dzone.com/articles/jenkins-02-changing-home-directory.
+
 ## # of executors
 
 This refers to the total number of concurrent job executions that can take place on the Jenkins machine. This can be changed based on requirements. Sometimes the recommendation is to keep this number the same as the number of CPU on the machines for better performance.
