@@ -111,6 +111,12 @@ pipeline {
                 // However, in our hands-on, you just need to print the artifact list by Linux command 'ls -la'
             }
         }
+
+        post {
+            always { 
+                echo 'I will always say Hello again!'
+            }
+        }
     }
 }
 ```
