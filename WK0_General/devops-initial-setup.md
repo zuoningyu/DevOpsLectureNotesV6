@@ -39,6 +39,17 @@ https://www.atlassian.com/git/tutorials/install-git
 ## Docker
 https://docs.docker.com/get-docker/
 
+## Use Linux command line on Windows machine
+
+### Install WSL
+https://docs.microsoft.com/en-us/windows/wsl/install
+
+### Install zsh
+https://blog.joaograssi.com/windows-subsystem-for-linux-with-oh-my-zsh-conemu/
+
+### Install brew on WSL
+https://www.how2shout.com/linux/install-brew-on-wsl-windows-subsystem-for-linux/
+
 ## Python Local Environment Setup
 
 ### Create your python virtual Environment
