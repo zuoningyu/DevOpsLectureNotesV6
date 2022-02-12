@@ -127,7 +127,7 @@ Invoke the Lambda function manually using sample Amazon S3 event data.
 
     3.  For **Event name**, enter a name for the test event. For example, `mys3testevent`.
 
-    4.  In the test event JSON, replace the S3 bucket name (`example-bucket`) and object key (`test/key`) with your bucket name and test file name. Your test event should look similar to the following:
+    4.  In the test event JSON, replace the S3 bucket name (`example-bucket`), bucket ARN and object key (`test/key`) with your bucket name and test file name. Your test event should look similar to the following:
 
 21. 1.  ```
         {
