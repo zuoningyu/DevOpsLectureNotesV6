@@ -11,6 +11,7 @@ Creating a queue
 Queues are created with a name. You may also optionally set queue attributes, such as the number of seconds to wait before an item may be processed. The examples below will use the queue name `test`. Before creating a queue, you must first get the SQS service resource:
 
 ```
+import boto3
 # Get the service resource
 sqs = boto3.resource('sqs')
 
