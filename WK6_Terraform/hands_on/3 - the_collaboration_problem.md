@@ -37,7 +37,7 @@ Let us create the bucket with your unique bucket name
 aws s3api create-bucket --bucket=terraform-remote-state-storage-s3-holly --create-bucket-configuration LocationConstraint=ap-southeast-2
 ```
 
-let us create a file called `backend.tf` in `WK7_Terraform/hands_on` directory
+let us create a file called `backend.tf` in `WK6_Terraform/hands_on` directory
 
 Next, you need to create a DynamoDB table to use for locking. DynamoDB is Amazon’s distributed key-value store. It supports strongly-consistent reads and conditional writes, which are all the ingredients you need for a distributed lock system. Moreover, it’s completely managed, so you don’t have any infrastructure to run yourself, and it’s inexpensive, with most Terraform usage easily fitting into the free tier.
 
