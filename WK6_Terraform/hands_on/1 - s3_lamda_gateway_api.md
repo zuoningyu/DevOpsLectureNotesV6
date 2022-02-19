@@ -101,7 +101,7 @@ Our provider is "aws"
 ```
 provider "aws" {
   region                  = "ap-southeast-2"
-  shared_credentials_file = "/Users/holly/.aws/credentials"
+  shared_credentials_files = ["your_home_folder/.aws/credentials"]
   profile                 = "default"
 }
 ```
@@ -127,7 +127,7 @@ resource "aws_lambda_function" "example" {
   # is the name of the property under which the handler function was
   # exported in that file.
   handler = "main.handler"
-  runtime = "nodejs10.x"
+  runtime = "nodejs14.x"
   role=aws_iam_role.lambda_exec.arn
 }
 ```
