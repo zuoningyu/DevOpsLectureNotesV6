@@ -4,7 +4,7 @@
   become_user: root
   user: ubuntu
   vars:
-    pip_install_packages:
+    pip_install_packages: # see https://github.com/geerlingguy/ansible-role-pip#role-variables
       - name: docker
   roles:
     - geerlingguy.docker
