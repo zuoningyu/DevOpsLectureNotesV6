@@ -1,0 +1,21 @@
+---
+- hosts: tag_redis
+  become: yes
+  become_user: root
+  user: ubuntu
+  tasks:
+    - name: Update repositories cache and install "redis" package
+      apt:
+        name: redis
+        update_cache: yes
+    # what if we delete the start config after start, is it started or not
+    - name: Start service redis, if not started
+      service:
+        name: redis
+        state: started
+
+    - name: Stop service redis
+      service:
+        name: redis
+        state: stopped
+
