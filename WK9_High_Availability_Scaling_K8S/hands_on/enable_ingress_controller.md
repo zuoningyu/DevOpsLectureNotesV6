@@ -204,6 +204,7 @@ nodes:
 ### Step 5. Chmod run.sh and run it
 ```
 chmod u+x run.sh
+kind delete cluster
 ./run.sh
 ```
 
